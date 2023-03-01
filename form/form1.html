@@ -9,8 +9,24 @@
 </head>
 <body>
     <form action="form1.html" method="get">
-        <label for="firstName">Imię</label>
+        <label for="firstName">Imię</label>   
         <input type="text" id="firstName" name="name">
+        <label for="userMessage">Podaj wiadomość</label>
+        <textarea name="user-message" id="userMessage" ></textarea>
+        <label for="userEmail">podaj email</label>
+        <input type="email" id="userEmail" name="user-email">
+        <label for="userAge">Podaj wiek</label>
+        <input type="number" name="user-age" id="userAge">
+        <label for="userBirth">Podaj date urodzenia: </label>
+        <input type="date" name="user-birthday" id="userBirth">
+        <hr>
+        <h2>jak mamy zweryfikować twoje konto</h2>
+        <input type="radio" name="verify" id="verifySMS" >
+        <label for="verifySMS">SMS</label>
+        <input type="radio" name="verify" id="verifyPhone" >
+        <label for="verifyPhone">Phone</label>
+        <input type="radio" name="verify" id="verifyEMAIL">
+        <label for="verifyEMAIL">Email</label>
         <button>Wyślij</button>
     </form>
 </body>
