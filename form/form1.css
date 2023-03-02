@@ -11,7 +11,7 @@ form{
     justify-items: center;
 }
 
-input,textarea{
+input,textarea,select{
     display: block; 
     width: 100%;  
     padding: 0.25rem;
@@ -34,4 +34,14 @@ button{
     background-color: aqua;
 }
 
-
+.list-option{
+    list-style-type: none;
+}
+.list-option li{
+    display: flex;
+    
+}
+.list-option input{
+    width: auto;
+    margin: 0.5rem;
+}
