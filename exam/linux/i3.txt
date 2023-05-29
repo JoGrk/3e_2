@@ -1,0 +1,17 @@
+C. Wykorzystując terminal oraz konto egzamin z hasłem egzamin (konto z uprawnieniami użytkownika root) wykonaj konfigurację systemu Linux
+
+w terminalu wyświetl informację o wykorzystywanym systemie plików
+df -T 
+w terminalu wyświetl zawartość pliku systemowego, przechowującego informacje o użytkownikach takie jak loginy, numery UID, katalogi domowe, domyślne powłoki użytkowników
+cat /etc/passwd
+za pomocą terminala w katalogu /home utwórz katalog PLIKI
+sudo mkdir /home/PLIKI  
+w katalogu domowym użytkownika egzamin utwórz plik tekstowy hasla.txt
+touch hasla.txt 
+wykonaj archiwum pliku hasla.txt
+tar -cvf hasla.tar hasla.txt
+
+przenieś plik hasla.txt z katalogu domowego użytkownika egzamin do katalogu /home/PLIKI
+mv hasla.txt /home/PLIKI  
+sprawdź uprawnienia do przeniesionego pliku
+ls -l /home/PLIKI/hasla.txt

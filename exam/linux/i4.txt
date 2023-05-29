@@ -1,0 +1,21 @@
+A. Używając poleceń terminalowych systemu Linux, utwórz w katalogu domowym użytkownika kierownik plik o nazwie lista.txt zawierający posortowaną alfabetycznie listę plików znajdujących się w folderze grafika na nośniku oznaczonym DANE/PROGRAMY
+
+B.
+1. utwórz konto użytkownika standardowego grafik1 z hasłem Grafika@100. dla utworzonego konta ustaw:
+
+ maksymalny okres ważności hasła na 14 dni,
+ czas wyświetlania komunikatu o konieczności zmiany hasła na 4 dni,
+ okres, w którym możliwa będzie zmiana hasła po jego wygaśnięciu na 8 dni.
+4.  utwórz nową grupę użytkowników o nazwie graficy i numerze ID 2016, a następnie dodaj konto grafik1 do tej grupy
+
+5.  w katalogu domowy konta Egzamin utwórz dowiązanie symboliczne do folderu domowego konta grafik1
+
+C. utwórz w katalogu domowym użytkownika Egzamin archiwum katalogu Obrazy/Pictures o nazwie Obrazy_archiwum, a następnie utworzone archiwum skompresuj w taki sposób, aby plik wyjściowy miał rozszerzenie .gz
+
+D. korzystając z terminala, ustaw nazwę komputera na egzaminLinux. Wykonaj zrzut ekranowy z wykonanym poleceniem i zapisz go w pliku graficznym o nazwie linux_terminal na dysku USB oznaczonym nazwą Egzamin.
+
+E. 1. na nośniku DANE/PROGRAMY o nazwie Egzamin znajduje się zarchiwizowany plik o nazwie archiwum.tar, wypakuj jego zawartość do katalogu domowego użytkownika Egzamin
+
+2. wypakowaną zawartość pliku archiwum.tar skompresuj w taki sposób, aby plik wyjściowy miał rozszerzenie bz2
+
+F korzystając z terminala ustaw datę systemową na 12 lipca 2017 oraz godzinę 12:00. Wykonaj zrzut ekranowy z wykonanym poleceniem i zapisz go pliku graficznym o nazwie linux_terminal na dysku USB oznaczonym nazwą Egzamin.
